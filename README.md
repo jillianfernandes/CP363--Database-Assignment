@@ -36,7 +36,7 @@ Size char(3)
 Color varchar(50)
 Description longtext
 
-**Members: **
+**Members:**
 MemberID int
 CustomerID char(10)
 MembershipStartDate date 

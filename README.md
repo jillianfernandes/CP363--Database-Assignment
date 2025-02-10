@@ -9,13 +9,11 @@ This database was created in Boyce-Codd Normal Form, which ensures that:
 
 The following tables are in this clothing store's database:
 
-Customers
-------------
+**Customers:**
 CustomerID char(10)
 IsMember tinyint(1)
 
-Employees 
-----------
+**Employees :**
 EmployeeID int 
 EmployeeSIN int 
 FirstName varchar(50)
@@ -24,14 +22,12 @@ Position varchar(50)
 Salary decimal(10,2)
 HireDate datetime
 
-ItemCategory 
--------------
+**ItemCategory:**
 CategoryID int 
 CategoryName varchar(100)
 CategoryType char(1)
 
-Items 
------------
+**Items:**
 ItemID int 
 ItemName varchar(50)
 Price decimal(10,2) 
@@ -40,8 +36,7 @@ Size char(3)
 Color varchar(50)
 Description longtext
 
-Members 
-------------
+**Members: **
 MemberID int
 CustomerID char(10)
 MembershipStartDate date 
@@ -51,8 +46,7 @@ LastName varchar(50)
 Email varchar(100)
 Phone varchar(20)
 
-Purchases
-----------
+**Purchases:**
 PurchaseID int
 CustomerID char(10) 
 ItemID int
